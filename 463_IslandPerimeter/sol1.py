@@ -28,6 +28,10 @@ class Solution(object):
         while stack:
             (i,j) = stack.pop(0)
             count = 0
+            if i-1>=0 and grid[i-1][j] and not visit[(i-1,j)]:
+                stack.append((i-1,j))
+                visit[(i-1,j)]+=1
+
             if j-1>=0 and grid[i][j-1] and not visit[(i,j-1)]:
                 stack.append((i,j-1))
                 visit[(i,j-1)]+=1
