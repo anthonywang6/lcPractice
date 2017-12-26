@@ -1,0 +1,7 @@
+// wc
+    **use sol1.py if the lands are sparse in the grid
+    thus we do not have to check the whole grid
+    but we still have to find the first land.
+
+
+
