@@ -1,0 +1,3 @@
+// just use sorted string wiuld be faster
+since nlogn is smaller than k*n when string can't be too long
+(k is distinct characters which is larger than logn)
