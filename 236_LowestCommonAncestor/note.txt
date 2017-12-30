@@ -1,0 +1,4 @@
+// wc   
+    I think sol1.py should work if every node has an unique val.
+    However this is not true in the test case.
+    given the val we can not determine the node. this is so weird.
