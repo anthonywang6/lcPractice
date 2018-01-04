@@ -1,0 +1,4 @@
+// wc 
+    sol1.py : brute force --> exceed tiem limit
+    sol2.py : add pruning to sol1.py --> pass
+    sol3.py : dp?
