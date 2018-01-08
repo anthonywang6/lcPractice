@@ -1,0 +1,5 @@
+// wc 
+    sol1 is the basic idea using list data structure
+    sol2 is actually my heap practice. 
+    BEWARE: It necessary to add a count to each element to tackle with priority equality situation
+            when using heap in python (so stupid!!)

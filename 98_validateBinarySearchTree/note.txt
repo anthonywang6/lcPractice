@@ -1,0 +1,4 @@
+#wc
+    sol1.py use recursive to literaly check the three conditions
+
+    sol2.py go through nodes are sorted with inorder presentation
