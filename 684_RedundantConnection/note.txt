@@ -1,0 +1,5 @@
+//wc 
+    sol1.py basic method using dfs
+    sol2.py the disjoint set algorithm (a revice version of link list dataset)
+    sol3.py I wish to write a tree version 
+
