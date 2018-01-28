@@ -1,0 +1,3 @@
+// wc 
+    sol1.py my DP method 
+
