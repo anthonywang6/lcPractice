@@ -1,4 +1,5 @@
 from heapq import *
+# wc this method would ETL
 class Solution:
     def minmaxGasDist(self, stations, K):
         myheap = [(-1*(stations[i+1]-stations[i]),0,(stations[i+1]-stations[i])) for i in range(len(stations)-1)]

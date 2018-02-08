@@ -11,6 +11,7 @@ class Solution:
             state, step= queue.pop(0)
             #print("state:"+state+"   {} steps".format(step))
             zp = state.find('0')
+
             if zp-1>=0 and zp !=3:
                 nstate= [s for s in state]
                 nstate[zp],nstate[zp-1]=nstate[zp-1],nstate[zp]
@@ -52,6 +53,7 @@ class Solution:
                     mem.add(nstate)
                     queue.append((nstate,step+1))
         return -1
+
 
 if __name__ == "__main__":
     board =[[3,2,4],[1,5,0]]
